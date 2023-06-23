@@ -25,3 +25,53 @@ dist-ssr
 
 .env
 .firebase/
+
+# Ignore Node.js build artifacts
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnp/
+.pnp.js
+
+# Ignore build output
+build/
+dist/
+
+# Ignore environment variables and local development files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore package lock files
+package-lock.json
+yarn.lock
+
+# Ignore log files and debugging output
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignore testing artifacts
+/coverage
+
+# Ignore compiled files and typescript definitions
+*.js
+*.d.ts
+
+# Ignore production-ready assets
+/dist
+
+# Ignore macOS system files
+.DS_Store
