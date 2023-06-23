@@ -3,7 +3,7 @@ import { styles } from '../styles'
 import { SectionWrapper } from '../hoc'
 import { textVariant, fadeIn } from '../utils/motion'
 import { projects } from '../constants'
-import Tilt from 'react-tilt'
+import { Tilt } from 'react-tilt'
 import { github } from '../assets'
 import React from 'react'
 
