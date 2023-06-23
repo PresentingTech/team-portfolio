@@ -24,19 +24,19 @@ const Navbar = () => {
         >
           <img src={pic} alt="logo" className='w-9 h-9 object-contain' />
           <p className="text-white text-[20px] font-bold cursor-pointer flex tracking-wider pl-2">
-            Mohamed Asif &nbsp;
+            Presenting Tech &nbsp;
           </p>
         </Link>
 
         
         <div className="hidden sm:flex gap-4">
-          <a href="https://www.linkedin.com/in/masif2002/">
+          <a href="https://www.linkedin.com/in/paarasguptaa/">
             <img src={linkedin} alt="linkedin" className='h-5 w-5'/>
           </a>
-          <a href="https://github.com/masif2002">
+          <a href="https://github.com/PresentingTech">
             <img src={githubs} alt="github" className='h-5 w-5'/>
           </a>
-          <a href="https://twitter.com/imasiftoo">
+          <a href="https://twitter.com/paarasguptaa">
             <img src={twitter} alt="twitter" className='h-5 w-5'/>
           </a>
         </div>
